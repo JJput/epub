@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et_bg"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请创建/sdcard/epub/目录，并将要解析的书籍移动到此目录下"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/but_allread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="批量读取"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/et_bookname"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/et_bg"
+            android:hint="书名：不要加后缀"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/but_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读取"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

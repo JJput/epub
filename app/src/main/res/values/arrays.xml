@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cs1">
+        <item>单帧刷新策略，中间不丢帧</item>
+        <item>多帧刷新模式，中间不丢帧</item>
+        <item>多帧刷新，中间丢帧</item>
+        <item>单帧刷新策略，中间不丢帧</item>
+        <item>多帧刷新模式，中间不丢帧</item>
+        <item>多帧刷新，中间丢帧</item>
+        <item>多帧刷新，只刷最后一帧</item>
+    </string-array>
+
+</resources>
